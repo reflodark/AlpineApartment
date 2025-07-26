@@ -1,16 +1,32 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="{{ site.lang }}">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }} - Ferienwohnung im Lötschental</title>
+
+    {# SEO Meta Tags - Important for search engines #}
+    <title>{{ title }} | {{ site.name }}</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+
+    {# Open Graph / Facebook Meta Tags - For better social sharing #}
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    <meta property="og:title" content="{{ title }} | {{ site.name }}">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta property="og:image" content="{{ site.assetUrl }}{{ (image or site.defaultImage) | url }}">
+
+    {# Twitter Meta Tags #}
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="{{ title }} | {{ site.name }}">
+    <meta property="twitter:description" content="{{ description or site.description }}">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="{{ '/styles.css' | url }}">
 </head>
 
 <body>
@@ -26,7 +42,7 @@
         </div>
     </div>
 
-    <script src="/app.js"></script>
+    <script src="{{ '/app.js' | url }}"></script>
 </body>
 
 </html>
