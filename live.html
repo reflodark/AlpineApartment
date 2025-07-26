@@ -1,42 +1,15 @@
-<!DOCTYPE html>
-<html lang="de">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Live - Ferienwohnung im Lötschental</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-
-    <div class="page-wrapper">
-        <div id="sidebar-placeholder"></div>
-
-        <div class="content-area">
-            <div id="header-placeholder"></div>
-
-            <main>
-                <section id="live">
-                    <h2 data-translate="live_title">Live-Webcam Chalet</h2>
-                    <div class="webcam-container">
-                        <p data-translate="live_text">Ein aktueller Blick ins Tal vom Chalet.</p>
-                        <img src="https://alpen-wohnung.ch/picture_library/wiler.jpg" alt="Webcam Lauchernalp"
-                            id="webcam-image">
-                    </div>
-                </section>
-            </main>
-
-            <div id="footer-placeholder"></div>
+---
+layout: layout.njk
+title: Live
+permalink: /live.html
+---
+<main>
+    <section id="live">
+        <h2 data-translate="live_title">Live-Webcam Chalet</h2>
+        <div class="webcam-container">
+            <p data-translate="live_text">Ein aktueller Blick ins Tal vom Chalet.</p>
+            <img src="https://alpen-wohnung.ch/picture_library/wiler.jpg" alt="Webcam Lauchernalp"
+                id="webcam-image">
         </div>
-    </div>
-
-    <script src="app.js"></script>
-</body>
-
-</html>
+    </section>
+</main>

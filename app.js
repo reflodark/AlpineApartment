@@ -153,41 +153,7 @@ const content = {
 // APPLICATION LOGIC - DO NOT EDIT BELOW THIS LINE
 // ===================================================================================
 
-/**
- * Loads reusable HTML components into their placeholders.
- * This function is async to allow all components to be fetched concurrently.
- */
-async function loadReusableComponents() {
-    // An array of component definitions: the placeholder ID and the file URL.
-    const components = [
-        { id: 'sidebar-placeholder', url: '_sidebar.html' },
-        { id: 'header-placeholder',  url: '_header.html' },
-        { id: 'footer-placeholder',  url: '_footer.html' }
-    ];
-
-    // Create a fetch promise for each component
-    const promises = components.map(async (component) => {
-        const placeholder = document.getElementById(component.id);
-        if (placeholder) {
-            try {
-                const response = await fetch(component.url);
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                placeholder.outerHTML = await response.text();
-            } catch (error) {
-                console.error(`Error loading component from ${component.url}:`, error);
-                placeholder.innerHTML = `<p style="color: red; text-align: center;">Error loading content.</p>`;
-            }
-        }
-    });
-
-    // Wait for all fetch operations to complete
-    await Promise.all(promises);
-}
-
-document.addEventListener('DOMContentLoaded', async function () {
-
-    // Load all shared components first and wait for them to finish.
-    await loadReusableComponents();
+document.addEventListener('DOMContentLoaded', function () {
 
     // --- MOBILE NAVIGATION TOGGLE ---
     const navToggle = document.querySelector('.mobile-nav-toggle');

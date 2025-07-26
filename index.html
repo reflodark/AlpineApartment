@@ -1,52 +1,26 @@
-<!DOCTYPE html>
-<html lang="de">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Ferienwohnung im Lötschental</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <div class="page-wrapper">
-        <div id="sidebar-placeholder"></div>
-
-        <div class="content-area">
-            <div id="header-placeholder"></div>
-
-            <main>
-                <section id="home">
-                    <h2 data-translate="home_title">Willkommen im Lötschental</h2>
-                    <p data-translate="home_intro">
-                        Herzlich willkommen in unserer gemütlichen 2-Zimmer-Ferienwohnung in Wiler...
-                    </p>
-                    <p data-translate="home_details">
-                        Diese 2014 komplett renovierte Ferienwohnung...
-                    </p>
-                    <div class="availability">
-                        <h3 data-translate="home_availability_title">Verfügbarkeit</h3>
-                        <p data-translate="home_availability_text">Für Anfragen zu freien Terminen kontaktieren Sie uns
-                            bitte direkt...</p>
-                    </div>
-
-                    <h3 data-translate="home_gallery_title">Impressionen</h3>
-                    <div class="gallery" id="gallery-container">
-                        <!-- Image gallery is populated by app.js -->
-                    </div>
-                </section>
-            </main>
-
-            <div id="footer-placeholder"></div>
+---
+layout: layout.njk
+title: Home
+permalink: /index.html
+---
+<main>
+    <section id="home">
+        <h2 data-translate="home_title">Willkommen im Lötschental</h2>
+        <p data-translate="home_intro">
+            Herzlich willkommen in unserer gemütlichen 2-Zimmer-Ferienwohnung in Wiler...
+        </p>
+        <p data-translate="home_details">
+            Diese 2014 komplett renovierte Ferienwohnung...
+        </p>
+        <div class="availability">
+            <h3 data-translate="home_availability_title">Verfügbarkeit</h3>
+            <p data-translate="home_availability_text">Für Anfragen zu freien Terminen kontaktieren Sie uns
+                bitte direkt...</p>
         </div>
-    </div>
 
-    <script src="app.js"></script>
-</body>
-
-</html>
+        <h3 data-translate="home_gallery_title">Impressionen</h3>
+        <div class="gallery" id="gallery-container">
+            <!-- Image gallery is populated by app.js -->
+        </div>
+    </section>
+</main>

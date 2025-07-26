@@ -1,1 +1,8 @@
-/.idea
+# Eleventy build output
+_site/
+
+# Node.js dependencies
+node_modules/
+
+# IDE-specific
+.idea/
