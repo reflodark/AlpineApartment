@@ -1,0 +1,4 @@
+# Ignore the README file from being processed and put into the _site folder.
+README.md
+
+# Also ignore the gitignore file itself
