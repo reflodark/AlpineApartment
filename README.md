@@ -18,11 +18,21 @@ To run the website locally for development, follow these steps:
     ```
     This will build the site and serve it at `http://localhost:8080`. The browser will automatically reload when you save changes.
 
-## Deployment
+## Building and Deployment
 
-The website is hosted on GitHub Pages.
+This project has two build configurations: one for the live production site and one for the test environment on GitHub Pages.
 
-To manually build and deploy the site, run the following command. This will create a production build in the `_site` folder and push its contents to the `gh-pages` branch.
+### Production Build (for alpine-apartment.ch)
+
+To create a final build for the live domain, run:
+```bash
+npm run build
+```
+This command generates the optimized website in the `_site` folder. The contents of this folder can then be uploaded via FTP to the web server.
+
+### Test Deployment (to GitHub Pages)
+
+To deploy a test version to `https://reflodark.github.io/AlpineApartment/`, run:
 ```bash
 npm run deploy
 ```

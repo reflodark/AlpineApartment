@@ -15,7 +15,7 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:title" content="{{ title }} | {{ site.name }}">
     <meta property="og:description" content="{{ description or site.description }}">
-    <meta property="og:image" content="{{ site.assetUrl }}{{ (image or site.defaultImage) | url }}">
+    <meta property="og:image" content="{{ site.url }}{{ (image or site.defaultImage) | url }}">
 
     {# Twitter Meta Tags #}
     <meta property="twitter:card" content="summary_large_image">
