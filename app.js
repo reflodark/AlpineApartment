@@ -66,7 +66,8 @@ const content = {
         live_text: 'Ein aktueller Blick ins Tal direkt aus dem Chalet.',
         footer_contact_title: 'Kontakt & Adresse',
         footer_contact_data: 'Postfach 331<br>Baanwaldstr 17, 3918 Wiler<br>Telefon: +41 32 333 33 63',
-        footer_link: 'Entdecken Sie das magische Lötschental'
+        footer_link: 'Entdecken Sie das magische Lötschental',
+        footer_legal_disclaimer: 'Für die Inhalte externer Links wird keine Haftung übernommen.'
     },
     // --- ENGLISH TEXTS (EN) ---
     en: {
@@ -106,7 +107,8 @@ const content = {
         live_text: 'A current view of the valley directly from the chalet.',
         footer_contact_title: 'Contact & Address',
         footer_contact_data: 'Postfach 331<br>Baanwaldstr 17, 3918 Wiler<br>Phone: +41 32 333 33 63',
-        footer_link: 'Discover the magical Lötschental'
+        footer_link: 'Discover the magical Lötschental',
+        footer_legal_disclaimer: 'No liability is assumed for the content of external links.'
     },
     // --- FRENCH TEXTS (FR) ---
     fr: {
@@ -146,7 +148,8 @@ const content = {
         live_text: 'Une vue actuelle de la vallée directement depuis le chalet.',
         footer_contact_title: 'Contact & Adresse',
         footer_contact_data: 'Postfach 331<br>Baanwaldstr 17, 3918 Wiler<br>Téléphone: +41 32 333 33 63',
-        footer_link: 'Découvrez le magique Lötschental'
+        footer_link: 'Découvrez le magique Lötschental',
+        footer_legal_disclaimer: 'Aucune responsabilité n\'est assumée pour le contenu des liens externes.'
     }
 };
 // ===================================================================================
