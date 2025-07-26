@@ -1,16 +1,19 @@
 {
   "name": "alpineapartment",
   "version": "1.0.0",
+  "homepage": "https://reflodark.github.io/AlpineApartment",
   "description": "",
   "main": "app.js",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "eleventy"
+    "build": "eleventy",
+    "deploy": "npm run build && gh-pages -d _site"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "gh-pages": "^6.1.1"
   }
 }

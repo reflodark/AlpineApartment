@@ -7,6 +7,10 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("app.js");
 
     return {
+        // This is the subdirectory where your site will be hosted on GitHub Pages.
+        // It should match your repository name.
+        pathPrefix: "/AlpineApartment/",
+
         // When you run `eleventy`, this is the directory that will be created.
         dir: {
             output: "_site"
