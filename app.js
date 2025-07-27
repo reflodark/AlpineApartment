@@ -35,10 +35,10 @@ const content = {
         nav_info: 'Info',
         nav_live: 'Live',
         home_title: 'Willkommen',
-        home_intro: 'Herzlich willkommen in unserer gemütlichen 2-Zimmer-Ferienwohnung in Wiler, im Herzen des magischen Lötschentals. Geniessen Sie die atemberaubende Bergwelt, unzählige Wanderwege und die authentische Walliser Kultur. Unsere Wohnung ist der perfekte Ausgangspunkt für Ihre Abenteuer in den Alpen.',
+        home_intro: 'Herzlich willkommen in unserer gemütlichen 2-Zimmer-Ferienwohnung in Wiler, im Herzen des magischen Lötschentals. Geniessen Sie die atemberaubende Bergwelt, unzählige Wanderwege und die authentische Walliser Kultur. Unsere Wohnung ist der perfekte Ausgangspunkt für Ihre Abenteuer in den Schweizer Alpen.',
         home_details: 'Diese 2014 komplett renovierte Ferienwohnung (neue Küche, Bad, 3-fach-Verglasung) ist Ihr idealer Ausgangspunkt im schneesicheren Skigebiet Lauchernalp. Die Talstation der Luftseilbahn ist nur 10 Gehminuten entfernt. Dank der Bergstation auf 3\'300 m ist Schnee garantiert. Die Anreise mit dem ÖV (Bahn bis Goppenstein, dann Postauto) ist einfach und bequem.',
         home_availability_title: 'Verfügbarkeit',
-        home_availability_text: 'Frei bis 01.12.2025<br>Sowie dauerhaft ab 01.05.2026',
+        home_availability_text: 'Frei bis 01.12.2025<br>Zudem dauerhaft verfügbar ab 01.05.2026',
         home_gallery_title: 'Impressionen',
         info_title: 'Informationen zur Wohnung',
         info_features_title: 'Ausstattung & Preise',
@@ -49,25 +49,31 @@ const content = {
         info_feature_persons: 'Personen:',
         info_value_persons: 'Ideal für 2-4 Personen',
         info_feature_kitchen: 'Küche:',
-        info_value_kitchen: 'Voll ausgestattet',
+        info_value_kitchen: 'Voll ausgestattet<br><span class="bullet">•</span> Kaffeemaschine<br><span class="bullet">•</span> Geschirrspüler<br><span class="bullet">•</span> Fondue-Caquelon<br><span class="bullet">•</span> Toaster',
         info_feature_bathroom: 'Badezimmer:',
         info_value_bathroom: 'Dusche / WC',
-        info_feature_balcony: 'Balcon:',
+        info_feature_balcony: 'Balkon:',
         info_value_balcony: 'Grosser Südbalkon mit Aussicht',
         info_feature_included: 'Inklusive:',
-        info_value_included: 'WLAN, TV, Parkplatz, Bettwäsche',
+        info_value_included: '<span class="bullet">•</span> WLAN<br><span class="bullet">•</span> TV<br><span class="bullet">•</span> Parkplatz<br><span class="bullet">•</span> Bettwäsche<br><span class="bullet">•</span> Wasch- und Skiraum<br><span class="bullet">•</span> 2 Betten<br><span class="bullet">•</span> Schlafcouch',
         info_feature_price: 'Preis pro Monat:',
         info_value_price: '990.- CHF',
         info_feature_tourist_tax: 'Kurtaxe:',
-        info_value_tourist_tax: '144.-/Jahr/Person',
+        info_value_tourist_tax: '144.- pro Jahr/Person',
+        info_feature_rental_options: 'Mietmöglichkeiten:',
+        info_value_rental_options: 'Saisonmiete oder Dauermiete',
         info_images_title: 'Lage & Grundriss',
         info_images_text: 'Die Wohnung befindet sich an zentraler und doch ruhiger Lage in Wiler.',
         live_title: 'Live-Webcam Chalet',
         live_text: 'Ein aktueller Blick ins Tal direkt aus dem Chalet.',
+        live_sponsor: 'Webcam gesponsert von <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
+        link_time_lapse: '7-Tage-Rückschau',
         footer_contact_title: 'Kontakt & Adresse',
-        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17, 3918 Wiler<br>Telefon: +41 32 333 33 63',
+        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17 (Zum Graben 2)<br>3918 Wiler',
+        footer_google_maps_link: 'Auf Google Maps anzeigen',
+        footer_google_maps_link_title: 'Standort auf Google Maps öffnen',
         footer_link: 'Entdecken Sie das magische Lötschental',
-        footer_legal_disclaimer: 'Für die Inhalte externer Links wird keine Haftung übernommen.'
+
     },
     // --- ENGLISH TEXTS (EN) ---
     en: {
@@ -76,10 +82,10 @@ const content = {
         nav_info: 'Info',
         nav_live: 'Live',
         home_title: 'Welcome',
-        home_intro: 'Welcome to our cozy 2-room holiday apartment in Wiler, in the heart of the magical Lötschental. Enjoy the breathtaking mountain scenery, countless hiking trails, and the authentic Valais culture. Our apartment is the perfect starting point for your adventures in the Alps.',
-        home_details :'This holiday apartment, fully renovated in 2014 (new kitchen, bathroom, triple-glazed windows), is your ideal base in the snow-sure Lauchernalp ski area. The cable car station is just a 10-minute walk away. With the mountain station at 3,300 m, snow is guaranteed. The apartment is easily accessible by public transport (train to Goppenstein, then PostBus).',
+        home_intro: 'Welcome to our cozy 2-room holiday apartment in Wiler, in the heart of the magical Lötschental. Enjoy the breathtaking mountain scenery, countless hiking trails, and the authentic Valais culture. Our apartment is the perfect starting point for your adventures in the Swiss Alps.',
+        home_details: 'This holiday apartment, fully renovated in 2014 (new kitchen, bathroom, triple-glazed windows), is your ideal base in the snow-sure Lauchernalp ski area. The cable car station is just a 10-minute walk away. With the mountain station at 3,300 m, snow is guaranteed. The apartment is easily accessible by public transport (train to Goppenstein, then PostBus).',
         home_availability_title: 'Availability',
-        home_availability_text: 'Available until 01.12.2025 <br> As well as permanently from 01.05.2026',
+        home_availability_text: 'Available until 01.12.2025<br>Also permanently available from 01.05.2026',
         home_gallery_title: 'Impressions',
         info_title: 'Apartment Information',
         info_features_title: 'Features & Prices',
@@ -90,25 +96,30 @@ const content = {
         info_feature_persons: 'Persons:',
         info_value_persons: 'Ideal for 2-4 people',
         info_feature_kitchen: 'Kitchen:',
-        info_value_kitchen: 'Fully equipped',
+        info_value_kitchen: 'Fully equipped<br><span class="bullet">•</span> Coffee machine<br><span class="bullet">•</span> Dishwasher<br><span class="bullet">•</span> Fondue set<br><span class="bullet">•</span> Toaster',
         info_feature_bathroom: 'Bathroom:',
         info_value_bathroom: 'Shower / WC',
         info_feature_balcony: 'Balcony:',
         info_value_balcony: 'Large south-facing balcony with a view',
         info_feature_included: 'Included:',
-        info_value_included: 'WLAN, TV, parking, bed linen',
+        info_value_included: '<span class="bullet">•</span> WLAN<br><span class="bullet">•</span> TV<br><span class="bullet">•</span> Parking<br><span class="bullet">•</span> Bed linen<br><span class="bullet">•</span> Laundry and ski room<br><span class="bullet">•</span> 2 beds<br><span class="bullet">•</span> Sofa bed',
         info_feature_price: 'Price per month:',
         info_value_price: '990.- CHF',
         info_feature_tourist_tax: 'Tourist tax:',
-        info_value_tourist_tax: '144.-/year/person',
+        info_value_tourist_tax: '144.- per year/person',
+        info_feature_rental_options: 'Rental Options:',
+        info_value_rental_options: 'Seasonal or long-term rental',
         info_images_title: 'Location & Floor Plan',
         info_images_text: 'The apartment is centrally yet quietly located in Wiler.',
         live_title: 'Live Webcam chalet',
         live_text: 'A current view of the valley directly from the chalet.',
+        live_sponsor: 'Webcam sponsored by <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
+        link_time_lapse: '7-Day time lapse',
         footer_contact_title: 'Contact & Address',
-        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17, 3918 Wiler<br>Phone: +41 32 333 33 63',
+        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17 (Zum Graben 2)<br>3918 Wiler',
+        footer_google_maps_link: 'Show on Google Maps',
+        footer_google_maps_link_title: 'Open location on Google Maps',
         footer_link: 'Discover the magical Lötschental',
-        footer_legal_disclaimer: 'No liability is assumed for the content of external links.'
     },
     // --- FRENCH TEXTS (FR) ---
     fr: {
@@ -117,10 +128,10 @@ const content = {
         nav_info: 'Info',
         nav_live: 'Live',
         home_title: 'Bienvenue',
-        home_intro: 'Bienvenue dans notre confortable appartement de vacances de 2 pièces à Wiler, au cœur du magique Lötschental. Profitez du paysage montagneux à couper le souffle, des innombrables sentiers de randonnée et de la culture valaisanne authentique. Notre appartement est le point de départ idéal pour vos aventures dans les Alpes.',
+        home_intro: 'Bienvenue dans notre confortable appartement de vacances de 2 pièces à Wiler, au cœur du magique Lötschental. Profitez du paysage montagneux à couper le souffle, des innombrables sentiers de randonnée et de la culture valaisanne authentique. Notre appartement est le point de départ idéal pour vos aventures dans les Alpes suisses.',
         home_details: 'Cet appartement, entièrement rénové en 2014 (nouvelle cuisine, salle de bain, triple vitrage), est le point de départ idéal pour le domaine skiable de Lauchernalp, où l\'enneigement est garanti. La station de téléphérique n\'est qu\'à 10 minutes à pied. Avec une station supérieure à 3\'300 m d\'altitude, la neige est assurée. L\'accès en transports publics (train jusqu\'à Goppenstein, puis CarPostal) est simple et pratique.',
         home_availability_title: 'Disponibilité',
-        home_availability_text: 'Libre jusqu\'au 01.12.2025<br>Permanent à partir du 01.05.2026',
+        home_availability_text: 'Libre jusqu\'au 01.12.2025<br>Disponible en permanence à partir du 01.05.2026',
         home_gallery_title: 'Impressions',
         info_title: 'Informations sur l\'appartement',
         info_features_title: 'Équipement & Prix',
@@ -131,25 +142,30 @@ const content = {
         info_feature_persons: 'Personnes:',
         info_value_persons: 'Idéal pour 2-4 personnes',
         info_feature_kitchen: 'Cuisine:',
-        info_value_kitchen: 'Entièrement équipée',
+        info_value_kitchen: 'Entièrement équipée<br><span class="bullet">•</span> Percolateur<br><span class="bullet">•</span> Lave-vaisselle<br><span class="bullet">•</span> Caquelon à fondue<br><span class="bullet">•</span> Grille-pain',
         info_feature_bathroom: 'Salle de bain:',
         info_value_bathroom: 'Douche / WC',
         info_feature_balcony: 'Balcon:',
         info_value_balcony: 'Grand balcon orienté sud avec vue',
         info_feature_included: 'Inclus:',
-        info_value_included: 'WLAN, TV, parking, linge de lit',
+        info_value_included: '<span class="bullet">•</span> WLAN<br><span class="bullet">•</span> TV<br><span class="bullet">•</span> Parking<br><span class="bullet">•</span> Linge de lit<br><span class="bullet">•</span> Buanderie et local à skis<br><span class="bullet">•</span> 2 lits<br><span class="bullet">•</span> Canapé-lit',
         info_feature_price: 'Prix par mois:',
         info_value_price: '990.- CHF',
         info_feature_tourist_tax: 'Taxe de séjour:',
-        info_value_tourist_tax: '144.-/an/personne',
+        info_value_tourist_tax: '144.- par an/personne',
+        info_feature_rental_options: 'Options de location:',
+        info_value_rental_options: 'Location saisonnière ou à long terme',
         info_images_title: 'Emplacement & Plan',
         info_images_text: 'L\'appartement est situé dans un endroit central mais calme à Wiler.',
         live_title: 'Webcam en direct du chalet',
         live_text: 'Une vue actuelle de la vallée directement depuis le chalet.',
+        live_sponsor: 'Webcam sponsorisée par <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
+        link_time_lapse: '7-jours de timelapse',
         footer_contact_title: 'Contact & Adresse',
-        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17, 3918 Wiler<br>Téléphone: +41 32 333 33 63',
+        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17 (Zum Graben 2)<br>3918 Wiler',
+        footer_google_maps_link: 'Afficher sur Google Maps',
+        footer_google_maps_link_title: 'Ouvrir l\'emplacement sur Google Maps',
         footer_link: 'Découvrez le magique Lötschental',
-        footer_legal_disclaimer: 'Aucune responsabilité n\'est assumée pour le contenu des liens externes.'
     }
 };
 // ===================================================================================
@@ -173,11 +189,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // --- RENDER FUNCTION ---
     function renderContent(lang) {
-        // Update all elements with a 'data-translate' attribute
-        document.querySelectorAll('[data-translate]').forEach(el => {
-            const key = el.getAttribute('data-translate');
-            if (content[lang] && content[lang][key]) {
-                el.innerHTML = content[lang][key];
+        // Update all elements with translatable attributes
+        document.querySelectorAll('[data-translate], [data-translate-title]').forEach(el => {
+            const translateKey = el.getAttribute('data-translate');
+            if (translateKey && content[lang] && content[lang][translateKey]) {
+                el.innerHTML = content[lang][translateKey];
+            }
+
+            const titleKey = el.getAttribute('data-translate-title');
+            if (titleKey && content[lang] && content[lang][titleKey]) {
+                el.title = content[lang][titleKey];
             }
         });
 
@@ -194,10 +215,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 img.src = src;
                 img.alt = content[lang].home_gallery_title || 'Impression';
                 img.onerror = function () { this.src = 'https://placehold.co/400x300/f0f0f0/ccc?text=Image+not+found'; };
-                
+
                 // === UPDATED: Add event listener for image click ===
                 img.style.cursor = 'pointer'; // Make it obvious the image is clickable
-                img.addEventListener('click', function() {
+                img.addEventListener('click', function () {
                     showImageInModal(this.src); // Call the new popup function
                 });
                 // ===============================================
@@ -264,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
             overlay.classList.remove('visible'); // This triggers the fade-out animation
 
             // After the animation finishes, remove the element from the page
-            overlay.addEventListener('transitionend', function() {
+            overlay.addEventListener('transitionend', function () {
                 if (document.body.contains(overlay)) {
                     document.body.removeChild(overlay);
                 }
@@ -272,7 +293,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         // 5. Add event listeners to trigger the closeModal function
-        overlay.addEventListener('click', function(e) {
+        overlay.addEventListener('click', function (e) {
             // Close only if the dark background or the X is clicked
             if (e.target === overlay || e.target === closeBtn) {
                 closeModal();

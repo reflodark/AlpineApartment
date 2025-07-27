@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://alpine-apartment.ch/AlpineApartment/sitemap.xml
+Sitemap: https://reflodark.github.io/AlpineApartment/sitemap.xml
