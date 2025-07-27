@@ -7,7 +7,7 @@
 
     {# SEO Meta Tags - Important for search engines #}
     <title>{{ title }} | {{ site.name }}</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}">
     <meta name="description" content="{{ description or site.description }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 

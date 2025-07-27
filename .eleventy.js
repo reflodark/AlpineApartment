@@ -1,19 +1,22 @@
-module.exports = function(eleventyConfig) {
-
-    // Tell Eleventy to copy the following folders/files to the output directory.
-    // Without this, Eleventy would only process HTML and ignore your assets.
-    eleventyConfig.addPassthroughCopy("images");
-    eleventyConfig.addPassthroughCopy("styles.css");
-    eleventyConfig.addPassthroughCopy("app.js");
+module.exports = function (eleventyConfig) {
+    // Passthrough-Copy für statische Assets. Eleventy kopiert diese Ordner/Dateien
+    // direkt in den Output-Ordner (_site).
+    eleventyConfig.addPassthroughCopy("favicon.ico");
+    eleventyConfig.addPassthroughCopy("./images");
+    eleventyConfig.addPassthroughCopy("./styles.css");
+    eleventyConfig.addPassthroughCopy("./app.js");
 
     return {
-        // Use a pathPrefix for the GitHub Pages deployment, but not for production.
-        // This is controlled by the ELEVENTY_ENV environment variable.
-        pathPrefix: process.env.ELEVENTY_ENV === 'gh-pages' ? "/AlpineApartment/" : "/",
-        
-        // When you run `eleventy`, this is the directory that will be created.
+        // Definiert die Verzeichnisstruktur für Eleventy.
         dir: {
-            output: "_site"
-        }
+            input: ".",
+            includes: "_includes",
+            output: "_site",
+        },
+
+        // Dies ist der entscheidende Teil für GitHub Pages.
+        // Wenn das Deploy-Skript ausgeführt wird (ELEVENTY_ENV=gh-pages),
+        // wird der Pfad-Präfix gesetzt. Ansonsten bleibt er leer.
+        pathPrefix: process.env.ELEVENTY_ENV === 'gh-pages' ? "/AlpineApartment/" : "/"
     };
 };
