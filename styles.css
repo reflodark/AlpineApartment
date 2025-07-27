@@ -263,6 +263,13 @@ section {
     margin-right: 15px;
 }
 
+.info-list li span .bullet {
+    color: var(--color-nav-bg); /* #273447 */
+    margin-right: 8px;
+    font-size: 0.8em;
+    vertical-align: middle;
+}
+
 .info-images img {
     width: 100%;
     border-radius: 8px;
@@ -279,6 +286,16 @@ section {
     border: 5px solid var(--color-card-bg);
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+}
+
+.webcam-container figcaption a {
+    color: #F7931A;
+    font-weight: 700;
+}
+
+.webcam-container figcaption a:hover {
+    /* A slightly darker orange for the hover effect */
+    color: #E68917;
 }
 
 .mobile-nav-toggle {
@@ -387,6 +404,13 @@ footer {
 footer a {
     color: var(--color-primary-dark);
     font-weight: 700;
+}
+
+footer .footer-icon-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    vertical-align: middle; /* Helps align with surrounding text if needed */
 }
 
 /* --- Responsive Design --- */

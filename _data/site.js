@@ -1,7 +1,6 @@
 module.exports = {
     name: "Chalet Captain Thorpe",
-    // The canonical URL for SEO purposes. This should be your primary production domain
-    url: "https://alpine-apartment.ch",
+    url: "https://reflodark.github.io", // Your base URL without the repo name
     author: "reflodark",
     description: "Gemütliche Ferienwohnung im Herzen des magischen Lötschentals. Perfekt für Abenteuer in den Alpen.",
     lang: "de",
