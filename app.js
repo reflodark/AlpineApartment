@@ -38,7 +38,10 @@ const content = {
         home_intro: 'Herzlich willkommen in unserer gemütlichen 2-Zimmer-Ferienwohnung in Wiler, im Herzen des magischen Lötschentals. Geniessen Sie die atemberaubende Bergwelt, unzählige Wanderwege und die authentische Walliser Kultur. Unsere Wohnung ist der perfekte Ausgangspunkt für Ihre Abenteuer in den Schweizer Alpen.',
         home_details: 'Diese 2014 komplett renovierte Ferienwohnung (neue Küche, Bad, 3-fach-Verglasung) ist Ihr idealer Ausgangspunkt im schneesicheren Skigebiet Lauchernalp. Die Talstation der Luftseilbahn ist nur 10 Gehminuten entfernt. Dank der Bergstation auf 3\'300 m ist Schnee garantiert. Die Anreise mit dem ÖV (Bahn bis Goppenstein, dann Postauto) ist einfach und bequem.',
         home_availability_title: 'Verfügbarkeit',
-        home_availability_text: 'Frei bis 01.12.2025<br>Zudem dauerhaft verfügbar ab 01.05.2026',
+        home_availability_text: [
+            'Frei bis 01.12.2025',
+            'Zudem dauerhaft verfügbar ab 01.05.2026'
+        ],
         home_gallery_title: 'Impressionen',
         info_title: 'Informationen zur Wohnung',
         info_features_title: 'Ausstattung & Preise',
@@ -49,13 +52,18 @@ const content = {
         info_feature_persons: 'Personen:',
         info_value_persons: 'Ideal für 2-4 Personen',
         info_feature_kitchen: 'Küche:',
-        info_value_kitchen: 'Voll ausgestattet<br><span class="bullet">•</span> Kaffeemaschine<br><span class="bullet">•</span> Geschirrspüler<br><span class="bullet">•</span> Fondue-Caquelon<br><span class="bullet">•</span> Toaster',
+        info_value_kitchen: {
+            intro: 'Voll ausgestattet',
+            items_bullet: ['Kaffeemaschine', 'Geschirrspüler', 'Fondue-Caquelon', 'Toaster']
+        },
         info_feature_bathroom: 'Badezimmer:',
         info_value_bathroom: 'Dusche / WC',
         info_feature_balcony: 'Balkon:',
         info_value_balcony: 'Grosser Südbalkon mit Aussicht',
         info_feature_included: 'Inklusive:',
-        info_value_included: '<span class="bullet">•</span> WLAN<br><span class="bullet">•</span> TV<br><span class="bullet">•</span> Parkplatz<br><span class="bullet">•</span> Bettwäsche<br><span class="bullet">•</span> Wasch- und Skiraum<br><span class="bullet">•</span> 2 Betten<br><span class="bullet">•</span> Schlafcouch',
+        info_value_included: {
+            items_bullet: ['WLAN', 'TV', 'Parkplatz', 'Bettwäsche', 'Wasch- und Skiraum', '2 Betten', 'Schlafcouch']
+        },
         info_feature_price: 'Preis pro Monat:',
         info_value_price: '990.- CHF',
         info_feature_tourist_tax: 'Kurtaxe:',
@@ -69,7 +77,11 @@ const content = {
         live_sponsor: 'Webcam gesponsert von <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
         link_time_lapse: '7-Tage-Rückschau',
         footer_contact_title: 'Kontakt & Adresse',
-        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17 (Zum Graben 2)<br>3918 Wiler',
+        footer_contact_data: [
+            'Postfach 331',
+            'Baanwaldstr 17 (Zum Graben 2)',
+            '3918 Wiler'
+        ],
         footer_google_maps_link: 'Auf Google Maps anzeigen',
         footer_google_maps_link_title: 'Standort auf Google Maps öffnen',
         footer_link: 'Entdecken Sie das magische Lötschental',
@@ -85,7 +97,10 @@ const content = {
         home_intro: 'Welcome to our cozy 2-room holiday apartment in Wiler, in the heart of the magical Lötschental. Enjoy the breathtaking mountain scenery, countless hiking trails, and the authentic Valais culture. Our apartment is the perfect starting point for your adventures in the Swiss Alps.',
         home_details: 'This holiday apartment, fully renovated in 2014 (new kitchen, bathroom, triple-glazed windows), is your ideal base in the snow-sure Lauchernalp ski area. The cable car station is just a 10-minute walk away. With the mountain station at 3,300 m, snow is guaranteed. The apartment is easily accessible by public transport (train to Goppenstein, then PostBus).',
         home_availability_title: 'Availability',
-        home_availability_text: 'Available until 01.12.2025<br>Also permanently available from 01.05.2026',
+        home_availability_text: [
+            'Available until 01.12.2025',
+            'Also permanently available from 01.05.2026'
+        ],
         home_gallery_title: 'Impressions',
         info_title: 'Apartment Information',
         info_features_title: 'Features & Prices',
@@ -96,13 +111,18 @@ const content = {
         info_feature_persons: 'Persons:',
         info_value_persons: 'Ideal for 2-4 people',
         info_feature_kitchen: 'Kitchen:',
-        info_value_kitchen: 'Fully equipped<br><span class="bullet">•</span> Coffee machine<br><span class="bullet">•</span> Dishwasher<br><span class="bullet">•</span> Fondue set<br><span class="bullet">•</span> Toaster',
+        info_value_kitchen: {
+            intro: 'Fully equipped',
+            items_bullet: ['Coffee machine', 'Dishwasher', 'Fondue set', 'Toaster']
+        },
         info_feature_bathroom: 'Bathroom:',
         info_value_bathroom: 'Shower / WC',
         info_feature_balcony: 'Balcony:',
         info_value_balcony: 'Large south-facing balcony with a view',
         info_feature_included: 'Included:',
-        info_value_included: '<span class="bullet">•</span> WLAN<br><span class="bullet">•</span> TV<br><span class="bullet">•</span> Parking<br><span class="bullet">•</span> Bed linen<br><span class="bullet">•</span> Laundry and ski room<br><span class="bullet">•</span> 2 beds<br><span class="bullet">•</span> Sofa bed',
+        info_value_included: {
+            items_bullet: ['WLAN', 'TV', 'Parking', 'Bed linen', 'Laundry and ski room', '2 beds', 'Sofa bed']
+        },
         info_feature_price: 'Price per month:',
         info_value_price: '990.- CHF',
         info_feature_tourist_tax: 'Tourist tax:',
@@ -116,7 +136,11 @@ const content = {
         live_sponsor: 'Webcam sponsored by <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
         link_time_lapse: '7-Day time lapse',
         footer_contact_title: 'Contact & Address',
-        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17 (Zum Graben 2)<br>3918 Wiler',
+        footer_contact_data: [
+            'Postfach 331',
+            'Baanwaldstr 17 (Zum Graben 2)',
+            '3918 Wiler'
+        ],
         footer_google_maps_link: 'Show on Google Maps',
         footer_google_maps_link_title: 'Open location on Google Maps',
         footer_link: 'Discover the magical Lötschental',
@@ -131,7 +155,10 @@ const content = {
         home_intro: 'Bienvenue dans notre confortable appartement de vacances de 2 pièces à Wiler, au cœur du magique Lötschental. Profitez du paysage montagneux à couper le souffle, des innombrables sentiers de randonnée et de la culture valaisanne authentique. Notre appartement est le point de départ idéal pour vos aventures dans les Alpes suisses.',
         home_details: 'Cet appartement, entièrement rénové en 2014 (nouvelle cuisine, salle de bain, triple vitrage), est le point de départ idéal pour le domaine skiable de Lauchernalp, où l\'enneigement est garanti. La station de téléphérique n\'est qu\'à 10 minutes à pied. Avec une station supérieure à 3\'300 m d\'altitude, la neige est assurée. L\'accès en transports publics (train jusqu\'à Goppenstein, puis CarPostal) est simple et pratique.',
         home_availability_title: 'Disponibilité',
-        home_availability_text: 'Libre jusqu\'au 01.12.2025<br>Disponible en permanence à partir du 01.05.2026',
+        home_availability_text: [
+            'Libre jusqu\'au 01.12.2025',
+            'Disponible en permanence à partir du 01.05.2026'
+        ],
         home_gallery_title: 'Impressions',
         info_title: 'Informations sur l\'appartement',
         info_features_title: 'Équipement & Prix',
@@ -142,13 +169,18 @@ const content = {
         info_feature_persons: 'Personnes:',
         info_value_persons: 'Idéal pour 2-4 personnes',
         info_feature_kitchen: 'Cuisine:',
-        info_value_kitchen: 'Entièrement équipée<br><span class="bullet">•</span> Percolateur<br><span class="bullet">•</span> Lave-vaisselle<br><span class="bullet">•</span> Caquelon à fondue<br><span class="bullet">•</span> Grille-pain',
+        info_value_kitchen: {
+            intro: 'Entièrement équipée',
+            items_bullet: ['Percolateur', 'Lave-vaisselle', 'Caquelon à fondue', 'Grille-pain']
+        },
         info_feature_bathroom: 'Salle de bain:',
         info_value_bathroom: 'Douche / WC',
         info_feature_balcony: 'Balcon:',
         info_value_balcony: 'Grand balcon orienté sud avec vue',
         info_feature_included: 'Inclus:',
-        info_value_included: '<span class="bullet">•</span> WLAN<br><span class="bullet">•</span> TV<br><span class="bullet">•</span> Parking<br><span class="bullet">•</span> Linge de lit<br><span class="bullet">•</span> Buanderie et local à skis<br><span class="bullet">•</span> 2 lits<br><span class="bullet">•</span> Canapé-lit',
+        info_value_included: {
+            items_bullet: ['WLAN', 'TV', 'Parking', 'Linge de lit', 'Buanderie et local à skis', '2 lits', 'Canapé-lit']
+        },
         info_feature_price: 'Prix par mois:',
         info_value_price: '990.- CHF',
         info_feature_tourist_tax: 'Taxe de séjour:',
@@ -162,7 +194,11 @@ const content = {
         live_sponsor: 'Webcam sponsorisée par <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
         link_time_lapse: '7-jours de timelapse',
         footer_contact_title: 'Contact & Adresse',
-        footer_contact_data: 'Postfach 331<br>Baanwaldstr 17 (Zum Graben 2)<br>3918 Wiler',
+        footer_contact_data: [
+            'Postfach 331',
+            'Baanwaldstr 17 (Zum Graben 2)',
+            '3918 Wiler'
+        ],
         footer_google_maps_link: 'Afficher sur Google Maps',
         footer_google_maps_link_title: 'Ouvrir l\'emplacement sur Google Maps',
         footer_link: 'Découvrez le magique Lötschental',
@@ -191,11 +227,30 @@ document.addEventListener('DOMContentLoaded', function () {
     function renderContent(lang) {
         // Update all elements with translatable attributes
         document.querySelectorAll('[data-translate], [data-translate-title]').forEach(el => {
+            // Handle text content
             const translateKey = el.getAttribute('data-translate');
             if (translateKey && content[lang] && content[lang][translateKey]) {
-                el.innerHTML = content[lang][translateKey];
+                const value = content[lang][translateKey];
+
+                // Default case for simple strings
+                if (typeof value === 'string') {
+                    el.innerHTML = value;
+                }
+                // NEW: Generic handler for bulleted lists
+                else if (typeof value === 'object' && value !== null && Array.isArray(value.items_bullet)) {
+                    let listHtml = value.items_bullet.map(item => `<span class="bullet">•</span> ${item}`).join('<br>');
+                    if (value.intro) {
+                        listHtml = value.intro + '<br>' + listHtml;
+                    }
+                    el.innerHTML = listHtml;
+                }
+                // Handle simple arrays (like availability, contact data)
+                else if (Array.isArray(value)) {
+                    el.innerHTML = value.join('<br>');
+                }
             }
 
+            // Handle title attributes
             const titleKey = el.getAttribute('data-translate-title');
             if (titleKey && content[lang] && content[lang][titleKey]) {
                 el.title = content[lang][titleKey];
