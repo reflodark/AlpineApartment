@@ -413,6 +413,11 @@ footer .footer-icon-link {
     vertical-align: middle; /* Helps align with surrounding text if needed */
 }
 
+footer .footer-bitcoin-badge {
+    max-width: 120px;
+    margin-top: 25px;
+}
+
 /* --- Responsive Design --- */
 @media (max-width: 900px) {
     :root {
