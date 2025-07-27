@@ -305,6 +305,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Store selected language
         localStorage.setItem('preferredLanguage', lang);
+
+        // --- Make content visible to prevent flickering ---
+        document.querySelector('main').style.visibility = 'visible';
     }
 
     // === FINAL: Function to show the animated image modal ===
