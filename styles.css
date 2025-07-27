@@ -58,6 +58,9 @@ body {
 main {
     padding: 20px 40px 40px 40px;
     flex-grow: 1;
+    /* Hide content initially to prevent flickering. JS will make it visible. */
+    visibility: hidden;
+    transition: visibility 0s 0.2s; /* Small delay to ensure content is ready */
 }
 
 h1,
