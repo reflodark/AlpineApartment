@@ -10,7 +10,8 @@
 const content = {
     // --- IMAGE PATHS ---
     galleryImages: [
-        './images/gallery/cortyard_summer.jpg',
+        './images/gallery/courtyard_summer.jpg',
+        './images/gallery/courtyard_winter.jpg',
         './images/gallery/balcony_1.jpg',
         './images/gallery/balcony_2.jpg',
         './images/gallery/view_balcony.jpg',
@@ -22,6 +23,7 @@ const content = {
         './images/gallery/kitchen_3.jpg',
         './images/gallery/bedroom_1.jpg',
         './images/gallery/bedroom_2.jpg',
+        './images/gallery/bathroom_1.jpg',
         './images/gallery/bathroom_2.jpg',
         './images/gallery/bathroom_3.jpg',
     ],
@@ -78,6 +80,7 @@ const content = {
         link_time_lapse: '7-Tage-Rückschau',
         footer_contact_title: 'Kontakt & Adresse',
         footer_contact_data: [
+            '<a href="https://kradolfer.com" target="_blank">Jürg Kradolfer</a>',
             'Postfach 331',
             'Baanwaldstr 17 (Zum Graben 2)',
             '3918 Wiler'
@@ -137,6 +140,7 @@ const content = {
         link_time_lapse: '7-Day time lapse',
         footer_contact_title: 'Contact & Address',
         footer_contact_data: [
+            '<a href="https://kradolfer.com" target="_blank">Jürg Kradolfer</a>',
             'Postfach 331',
             'Baanwaldstr 17 (Zum Graben 2)',
             '3918 Wiler'
@@ -195,6 +199,7 @@ const content = {
         link_time_lapse: '7-jours de timelapse',
         footer_contact_title: 'Contact & Adresse',
         footer_contact_data: [
+            '<a href="https://kradolfer.com" target="_blank">Jürg Kradolfer</a>',
             'Postfach 331',
             'Baanwaldstr 17 (Zum Graben 2)',
             '3918 Wiler'
