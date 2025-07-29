@@ -36,7 +36,7 @@ const content = {
         nav_home: 'Home',
         nav_info: 'Info',
         nav_live: 'Live',
-        home_title: 'Test 2.5-ZiWohnung ruhige Lage einmalige Aussicht',
+        home_title: '2.5-ZiWohnung ruhige Lage einmalige Aussicht',
         home_intro: 'Herzlich willkommen in unserer gemütlichen 2.5-Zimmer-Ferienwohnung in Wiler, im Herzen des magischen Lötschentals. Geniessen Sie die atemberaubende Bergwelt, unzählige Wanderwege und die authentische Walliser Kultur. Unsere Wohnung ist der perfekte Ausgangspunkt für Ihre Abenteuer in den Schweizer Alpen.',
         home_details: 'Diese 2014 komplett renovierte Ferienwohnung (neue Küche, Bad, 3-fach-Verglasung) ist Ihr idealer Ausgangspunkt im schneesicheren Skigebiet Lauchernalp. Die Talstation der Luftseilbahn ist nur 10 Gehminuten entfernt. Dank der Bergstation auf 3\'300 m ist Schnee garantiert. Die Anreise mit dem ÖV (Bahn bis Goppenstein, dann Postauto) ist einfach und bequem.',
         home_availability_title: 'Verfügbarkeit',
@@ -229,11 +229,11 @@ const content = {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    // Get the site root path from the global scope (set in layout.njk). Fallback to '/'
+    // Get the site root path from the global scope (set in scripts.njk). Fallback to '/'
     const siteRoot = window.siteRoot || '/';
-    // Helper function to resolve asset paths correctly, handling the pathPrefix for gh-pages.
+    // Helper function to resolve asset paths correctly, handling the pathPrefix.
     // It takes a relative path like './images/foo.jpg' and prepends the correct site root.
-    const resolveUrl = (path) => `${siteRoot}${path.startsWith('./') ? path.substring(2) : path}`;
+    const resolveUrl = (path) => `${siteRoot}${path.substring(2)}`;
 
     // --- MOBILE NAVIGATION TOGGLE ---
     const navToggle = document.querySelector('.mobile-nav-toggle');
