@@ -1,3 +1,2 @@
 User-agent: *
-Disallow:
-Sitemap: https://alpen-wohnung.ch/AlpineApartment/sitemap.xml
+Sitemap: https://reflodark.github.io/AlpineApartment/sitemap.xml
