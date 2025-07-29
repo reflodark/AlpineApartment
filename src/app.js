@@ -36,7 +36,7 @@ const content = {
         nav_home: 'Home',
         nav_info: 'Info',
         nav_live: 'Live',
-        home_title: '2.5-ZiWohnung ruhige Lage einmalige Aussicht',
+        home_title: 'Hello 2.5-ZiWohnung ruhige Lage einmalige Aussicht',
         home_intro: 'Herzlich willkommen in unserer gemütlichen 2.5-Zimmer-Ferienwohnung in Wiler, im Herzen des magischen Lötschentals. Geniessen Sie die atemberaubende Bergwelt, unzählige Wanderwege und die authentische Walliser Kultur. Unsere Wohnung ist der perfekte Ausgangspunkt für Ihre Abenteuer in den Schweizer Alpen.',
         home_details: 'Diese 2014 komplett renovierte Ferienwohnung (neue Küche, Bad, 3-fach-Verglasung) ist Ihr idealer Ausgangspunkt im schneesicheren Skigebiet Lauchernalp. Die Talstation der Luftseilbahn ist nur 10 Gehminuten entfernt. Dank der Bergstation auf 3\'300 m ist Schnee garantiert. Die Anreise mit dem ÖV (Bahn bis Goppenstein, dann Postauto) ist einfach und bequem.',
         home_availability_title: 'Verfügbarkeit',
@@ -229,12 +229,6 @@ const content = {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    // Get the site root path from the global scope (set in scripts.njk). Fallback to '/'
-    const siteRoot = window.siteRoot || '/';
-    // Helper function to resolve asset paths correctly, handling the pathPrefix.
-    // It takes a relative path like './images/foo.jpg' and prepends the correct site root.
-    const resolveUrl = (path) => `${siteRoot}${path.substring(2)}`;
-
     // --- MOBILE NAVIGATION TOGGLE ---
     const navToggle = document.querySelector('.mobile-nav-toggle');
     const sidebar = document.querySelector('.sidebar');
@@ -292,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const item = document.createElement('div');
                 item.className = 'gallery-item';
                 const img = document.createElement('img');
-                img.src = resolveUrl(src);
+                img.src = src;
                 img.alt = content[lang].home_gallery_title || 'Impression';
                 img.onerror = function () { this.src = 'https://placehold.co/400x300/f0f0f0/ccc?text=Image+not+found'; };
 
@@ -310,10 +304,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update info images
         const locationImage = document.getElementById('image-location');
-        if (locationImage) locationImage.src = resolveUrl(content.locationImage);
+        if (locationImage) locationImage.src = content.locationImage;
 
         const floorplanImage = document.getElementById('image-floorplan');
-        if (floorplanImage) floorplanImage.src = resolveUrl(content.floorplanImage);
+        if (floorplanImage) floorplanImage.src = content.floorplanImage;
 
         // Update language switcher UI
         document.querySelectorAll('.lang-switcher a').forEach(a => {
@@ -422,7 +416,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (journeyLink) {
             const currentLang = document.documentElement.lang || 'de';
-            journeyLink.href = resolveUrl(`./doc/journey_${currentLang}.pdf`);
+            journeyLink.href = `./doc/journey_${currentLang}.pdf`;
         }
 
     }
