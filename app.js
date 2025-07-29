@@ -36,8 +36,8 @@ const content = {
         nav_home: 'Home',
         nav_info: 'Info',
         nav_live: 'Live',
-        home_title: 'Willkommen',
-        home_intro: 'Herzlich willkommen in unserer gemütlichen 2-Zimmer-Ferienwohnung in Wiler, im Herzen des magischen Lötschentals. Geniessen Sie die atemberaubende Bergwelt, unzählige Wanderwege und die authentische Walliser Kultur. Unsere Wohnung ist der perfekte Ausgangspunkt für Ihre Abenteuer in den Schweizer Alpen.',
+        home_title: '2.5-ZiWohnung ruhige Lage einmalige Aussicht',
+        home_intro: 'Herzlich willkommen in unserer gemütlichen 2.5-Zimmer-Ferienwohnung in Wiler, im Herzen des magischen Lötschentals. Geniessen Sie die atemberaubende Bergwelt, unzählige Wanderwege und die authentische Walliser Kultur. Unsere Wohnung ist der perfekte Ausgangspunkt für Ihre Abenteuer in den Schweizer Alpen.',
         home_details: 'Diese 2014 komplett renovierte Ferienwohnung (neue Küche, Bad, 3-fach-Verglasung) ist Ihr idealer Ausgangspunkt im schneesicheren Skigebiet Lauchernalp. Die Talstation der Luftseilbahn ist nur 10 Gehminuten entfernt. Dank der Bergstation auf 3\'300 m ist Schnee garantiert. Die Anreise mit dem ÖV (Bahn bis Goppenstein, dann Postauto) ist einfach und bequem.',
         home_availability_title: 'Verfügbarkeit',
         home_availability_text: [
@@ -50,7 +50,7 @@ const content = {
         info_feature_area: 'Wohnfläche:',
         info_value_area: 'ca. 35m²',
         info_feature_rooms: 'Zimmer:',
-        info_value_rooms: '2 (1 Schlafzimmer, 1 Wohn-/Esszimmer)',
+        info_value_rooms: '2.5 (1 Schlafzimmer, 1 Wohn-/Esszimmer)',
         info_feature_persons: 'Personen:',
         info_value_persons: 'Ideal für 2-4 Personen',
         info_feature_kitchen: 'Küche:',
@@ -67,23 +67,23 @@ const content = {
             items_bullet: ['WLAN', 'TV', 'Parkplatz', 'Bettwäsche', 'Wasch- und Skiraum', '2 Betten', 'Schlafcouch']
         },
         info_feature_price: 'Preis pro Monat:',
-        info_value_price: '990.- CHF',
+        info_value_price: '1\'100.- CHF<br>inklusive alle Nebenkosten',
         info_feature_tourist_tax: 'Kurtaxe:',
         info_value_tourist_tax: '144.- pro Jahr/Person',
         info_feature_rental_options: 'Mietmöglichkeiten:',
         info_value_rental_options: 'Saisonmiete oder Dauermiete',
         info_images_title: 'Lage & Grundriss',
         info_images_text: 'Die Wohnung befindet sich an zentraler und doch ruhiger Lage in Wiler.',
+        link_journey: 'Anreise (PDF)',
         live_title: 'Live-Webcam Chalet',
         live_text: 'Ein aktueller Blick ins Tal direkt aus dem Chalet.',
-        live_sponsor: 'Webcam gesponsert von <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
+        live_sponsor: 'Webcam gesponsert von <a href="https://bitcoin-schweiz.ch" target="_blank">bitcoin-schweiz.ch</a>',
         link_time_lapse: '7-Tage-Rückschau',
         footer_contact_title: 'Kontakt & Adresse',
         footer_contact_data: [
             '<a href="https://kradolfer.com" target="_blank">Jürg Kradolfer</a>',
-            'Postfach 331',
             'Baanwaldstr 17 (Zum Graben 2)',
-            '3918 Wiler'
+            'CH-3918 Wiler (Lö)'
         ],
         footer_google_maps_link: 'Auf Google Maps anzeigen',
         footer_google_maps_link_title: 'Standort auf Google Maps öffnen',
@@ -96,8 +96,8 @@ const content = {
         nav_home: 'Home',
         nav_info: 'Info',
         nav_live: 'Live',
-        home_title: 'Welcome',
-        home_intro: 'Welcome to our cozy 2-room holiday apartment in Wiler, in the heart of the magical Lötschental. Enjoy the breathtaking mountain scenery, countless hiking trails, and the authentic Valais culture. Our apartment is the perfect starting point for your adventures in the Swiss Alps.',
+        home_title: '2.5-room apartment, quiet location, unique view',
+        home_intro: 'Welcome to our cozy 2.5-room holiday apartment in Wiler, in the heart of the magical Lötschental. Enjoy the breathtaking mountain scenery, countless hiking trails, and the authentic Valais culture. Our apartment is the perfect starting point for your adventures in the Swiss Alps.',
         home_details: 'This holiday apartment, fully renovated in 2014 (new kitchen, bathroom, triple-glazed windows), is your ideal base in the snow-sure Lauchernalp ski area. The cable car station is just a 10-minute walk away. With the mountain station at 3,300 m, snow is guaranteed. The apartment is easily accessible by public transport (train to Goppenstein, then PostBus).',
         home_availability_title: 'Availability',
         home_availability_text: [
@@ -110,7 +110,7 @@ const content = {
         info_feature_area: 'Living space:',
         info_value_area: 'approx. 35m²',
         info_feature_rooms: 'Rooms:',
-        info_value_rooms: '2 (1 bedroom, 1 living/dining room)',
+        info_value_rooms: '2.5 (1 bedroom, 1 living/dining room)',
         info_feature_persons: 'Persons:',
         info_value_persons: 'Ideal for 2-4 people',
         info_feature_kitchen: 'Kitchen:',
@@ -127,23 +127,24 @@ const content = {
             items_bullet: ['WLAN', 'TV', 'Parking', 'Bed linen', 'Laundry and ski room', '2 beds', 'Sofa bed']
         },
         info_feature_price: 'Price per month:',
-        info_value_price: '990.- CHF',
+        info_value_price: '1\'100.- CHF<br>including all ancillary costs',
         info_feature_tourist_tax: 'Tourist tax:',
         info_value_tourist_tax: '144.- per year/person',
         info_feature_rental_options: 'Rental Options:',
         info_value_rental_options: 'Seasonal or long-term rental',
         info_images_title: 'Location & Floor Plan',
         info_images_text: 'The apartment is centrally yet quietly located in Wiler.',
+        link_journey: 'Journey (PDF)',
         live_title: 'Live Webcam chalet',
         live_text: 'A current view of the valley directly from the chalet.',
-        live_sponsor: 'Webcam sponsored by <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
+        live_sponsor: 'Webcam sponsored by <a href="https://bitcoin-schweiz.ch" target="_blank">bitcoin-schweiz.ch</a>',
         link_time_lapse: '7-Day time lapse',
         footer_contact_title: 'Contact & Address',
         footer_contact_data: [
             '<a href="https://kradolfer.com" target="_blank">Jürg Kradolfer</a>',
             'Postfach 331',
             'Baanwaldstr 17 (Zum Graben 2)',
-            '3918 Wiler'
+            'CH-3918 Wiler (Lö)'
         ],
         footer_google_maps_link: 'Show on Google Maps',
         footer_google_maps_link_title: 'Open location on Google Maps',
@@ -155,8 +156,8 @@ const content = {
         nav_home: 'Accueil',
         nav_info: 'Info',
         nav_live: 'Live',
-        home_title: 'Bienvenue',
-        home_intro: 'Bienvenue dans notre confortable appartement de vacances de 2 pièces à Wiler, au cœur du magique Lötschental. Profitez du paysage montagneux à couper le souffle, des innombrables sentiers de randonnée et de la culture valaisanne authentique. Notre appartement est le point de départ idéal pour vos aventures dans les Alpes suisses.',
+        home_title: 'Appartement de 2.5 pièces, situation calme, vue unique',
+        home_intro: 'Bienvenue dans notre confortable appartement de vacances de 2.5 pièces à Wiler, au cœur du magique Lötschental. Profitez du paysage montagneux à couper le souffle, des innombrables sentiers de randonnée et de la culture valaisanne authentique. Notre appartement est le point de départ idéal pour vos aventures dans les Alpes suisses.',
         home_details: 'Cet appartement, entièrement rénové en 2014 (nouvelle cuisine, salle de bain, triple vitrage), est le point de départ idéal pour le domaine skiable de Lauchernalp, où l\'enneigement est garanti. La station de téléphérique n\'est qu\'à 10 minutes à pied. Avec une station supérieure à 3\'300 m d\'altitude, la neige est assurée. L\'accès en transports publics (train jusqu\'à Goppenstein, puis CarPostal) est simple et pratique.',
         home_availability_title: 'Disponibilité',
         home_availability_text: [
@@ -169,7 +170,7 @@ const content = {
         info_feature_area: 'Surface habitable:',
         info_value_area: 'env. 35m²',
         info_feature_rooms: 'Pièces:',
-        info_value_rooms: '2 (1 chambre, 1 salon/salle à manger)',
+        info_value_rooms: '2.5 (1 chambre, 1 salon/salle à manger)',
         info_feature_persons: 'Personnes:',
         info_value_persons: 'Idéal pour 2-4 personnes',
         info_feature_kitchen: 'Cuisine:',
@@ -186,23 +187,24 @@ const content = {
             items_bullet: ['WLAN', 'TV', 'Parking', 'Linge de lit', 'Buanderie et local à skis', '2 lits', 'Canapé-lit']
         },
         info_feature_price: 'Prix par mois:',
-        info_value_price: '990.- CHF',
+        info_value_price: '1\'100.- CHF<br>toutes charges comprises',
         info_feature_tourist_tax: 'Taxe de séjour:',
         info_value_tourist_tax: '144.- par an/personne',
         info_feature_rental_options: 'Options de location:',
         info_value_rental_options: 'Location saisonnière ou à long terme',
         info_images_title: 'Emplacement & Plan',
         info_images_text: 'L\'appartement est situé dans un endroit central mais calme à Wiler.',
+        link_journey: 'Trajet (PDF)',
         live_title: 'Webcam en direct du chalet',
         live_text: 'Une vue actuelle de la vallée directement depuis le chalet.',
-        live_sponsor: 'Webcam sponsorisée par <a href="https://bitcoin-schweiz.ch">bitcoin-schweiz.ch</a>',
+        live_sponsor: 'Webcam sponsorisée par <a href="https://bitcoin-schweiz.ch" target="_blank">bitcoin-schweiz.ch</a>',
         link_time_lapse: '7-jours de timelapse',
         footer_contact_title: 'Contact & Adresse',
         footer_contact_data: [
-            '<a href="https://kradolfer.com" target="_blank">Jürg Kradolfer</a>',
+            '<a href="https://kradolfer.com" target="_blank"Jürg Kradolfer</a>',
             'Postfach 331',
             'Baanwaldstr 17 (Zum Graben 2)',
-            '3918 Wiler'
+            'CH-3918 Wiler (Lö)'
         ],
         footer_google_maps_link: 'Afficher sur Google Maps',
         footer_google_maps_link_title: 'Ouvrir l\'emplacement sur Google Maps',
@@ -214,6 +216,12 @@ const content = {
 // ===================================================================================
 
 document.addEventListener('DOMContentLoaded', function () {
+
+    // Get the site root path from the global scope (set in scripts.njk). Fallback to '/'
+    const siteRoot = window.siteRoot || '/';
+    // Helper function to resolve asset paths correctly, handling the pathPrefix.
+    // It takes a relative path like './images/foo.jpg' and prepends the correct site root.
+    const resolveUrl = (path) => `${siteRoot}${path.substring(2)}`;
 
     // --- MOBILE NAVIGATION TOGGLE ---
     const navToggle = document.querySelector('.mobile-nav-toggle');
@@ -272,7 +280,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const item = document.createElement('div');
                 item.className = 'gallery-item';
                 const img = document.createElement('img');
-                img.src = src;
+                img.src = resolveUrl(src);
                 img.alt = content[lang].home_gallery_title || 'Impression';
                 img.onerror = function () { this.src = 'https://placehold.co/400x300/f0f0f0/ccc?text=Image+not+found'; };
 
@@ -290,10 +298,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update info images
         const locationImage = document.getElementById('image-location');
-        if (locationImage) locationImage.src = content.locationImage;
+        if (locationImage) locationImage.src = resolveUrl(content.locationImage);
 
         const floorplanImage = document.getElementById('image-floorplan');
-        if (floorplanImage) floorplanImage.src = content.floorplanImage;
+        if (floorplanImage) floorplanImage.src = resolveUrl(content.floorplanImage);
 
         // Update language switcher UI
         document.querySelectorAll('.lang-switcher a').forEach(a => {
@@ -391,14 +399,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Dynamic links
     function updateDynamicLink() {
-        const link = document.getElementById('link-loetschental');
+        const loetschentalLink = document.getElementById('link-loetschental');
 
-        if (!link) {
-            return;
+        if (loetschentalLink) {
+            const currentLang = document.documentElement.lang || 'de';
+            loetschentalLink.href = `https://www.loetschental.ch/${currentLang}/`;
         }
 
-        const currentLang = document.documentElement.lang || 'de';
-        link.href = `https://www.loetschental.ch/${currentLang}/`;
+        const journeyLink = document.getElementById('link_journey');
+
+        if (journeyLink) {
+            const currentLang = document.documentElement.lang || 'de';
+            journeyLink.href = resolveUrl(`./doc/journey_${currentLang}.pdf`);
+        }
+
     }
 
     // Highlight active navigation link
