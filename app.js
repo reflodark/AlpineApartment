@@ -229,12 +229,6 @@ const content = {
 
 document.addEventListener('DOMContentLoaded', function () {
 
-    // Get the site root path from the global scope (set in scripts.njk). Fallback to '/'
-    const siteRoot = window.siteRoot || '/';
-    // Helper function to resolve asset paths correctly, handling the pathPrefix.
-    // It takes a relative path like './images/foo.jpg' and prepends the correct site root.
-    const resolveUrl = (path) => `${siteRoot}${path.substring(2)}`;
-
     // --- MOBILE NAVIGATION TOGGLE ---
     const navToggle = document.querySelector('.mobile-nav-toggle');
     const sidebar = document.querySelector('.sidebar');
@@ -292,7 +286,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 const item = document.createElement('div');
                 item.className = 'gallery-item';
                 const img = document.createElement('img');
-                img.src = resolveUrl(src);
+                img.src = src;
                 img.alt = content[lang].home_gallery_title || 'Impression';
                 img.onerror = function () { this.src = 'https://placehold.co/400x300/f0f0f0/ccc?text=Image+not+found'; };
 
@@ -310,10 +304,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
         // Update info images
         const locationImage = document.getElementById('image-location');
-        if (locationImage) locationImage.src = resolveUrl(content.locationImage);
+        if (locationImage) locationImage.src = content.locationImage;
 
         const floorplanImage = document.getElementById('image-floorplan');
-        if (floorplanImage) floorplanImage.src = resolveUrl(content.floorplanImage);
+        if (floorplanImage) floorplanImage.src = content.floorplanImage;
 
         // Update language switcher UI
         document.querySelectorAll('.lang-switcher a').forEach(a => {
@@ -422,7 +416,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (journeyLink) {
             const currentLang = document.documentElement.lang || 'de';
-            journeyLink.href = resolveUrl(`./doc/journey_${currentLang}.pdf`);
+            journeyLink.href = `./doc/journey_${currentLang}.pdf`;
         }
 
     }
