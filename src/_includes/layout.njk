@@ -9,6 +9,11 @@
     <title>{{ title }} | {{ site.name }}</title>
     <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | url }}">
     <meta name="description" content="{{ description or site.description }}">
+
+    {# Prevent search engine indexing for the GitHub Pages test environment #}
+    {% if eleventy.env.ELEVENTY_ENV == 'gh-pages' %}
+    <meta name="robots" content="noindex, nofollow">
+    {% endif %}
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
     {# Open Graph / Facebook Meta Tags - For better social sharing #}

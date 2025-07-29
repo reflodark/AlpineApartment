@@ -1,0 +1,11 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+User-agent: *
+{%- if eleventy.env.ELEVENTY_ENV == 'gh-pages' %}
+Disallow: /
+{%- else %}
+Disallow:
+Sitemap: {{ site.url }}{{ '/sitemap.xml' | url }}
+{%- endif %}

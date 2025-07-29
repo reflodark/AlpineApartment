@@ -1,9 +1,7 @@
 module.exports = {
     name: "Chalet Captain Thorpe",
-    url: "https://reflodark.github.io", // Your base URL without the repo name
-    author: "reflodark",
-    description: "Gemütliche Ferienwohnung im Herzen des magischen Lötschentals. Perfekt für Abenteuer in den Alpen.",
+    url: "https://alpen-wohnung.ch",
     lang: "de",
-    // A default image for social media sharing
-    defaultImage: "/images/gallery/cortyard_summer.jpg"
+    description: "Gemütliche 2.5-Zimmer-Ferienwohnung in Wiler, im Herzen des magischen Lötschentals.",
+    defaultImage: "/images/gallery/courtyard_summer.jpg"
 };
